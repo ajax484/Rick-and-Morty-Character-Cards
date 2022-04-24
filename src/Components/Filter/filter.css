@@ -1,0 +1,27 @@
+.accordion-button {
+    color: var(--white);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--white);
+    background-color: var(--primary-green);
+}
+
+.accordion-button:not(.collapsed), .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button.collapsed {
+    color: var(--white);
+    background-color: var(--secondary-green);
+    outline: none;
+}
+
+.accordion-button::after {
+    fill: var(--white);
+}
+
+.accordion-body {
+    background-color: var(--tertiary-green);
+}

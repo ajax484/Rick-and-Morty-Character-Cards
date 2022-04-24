@@ -1,0 +1,83 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap"); */
+
+@font-face {
+    font-family: RickAndMorty;
+    src: url(./get_schwifty.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: RickAndMorty;
+    src: url(./get_schwifty.ttf);
+}
+
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.header-text {
+    background-color: var(--black) !important;
+    color: var(--tertiary-green) !important;
+}
+
+.brand {
+    font-family: RickAndMorty;
+}
+
+.btn, input[type="radio"], .btn:focus, input[type="radio"]:focus {
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+    background-color: var(--primary-green);
+    border: 2px solid var(--secondary-green);
+    color: var(--white);
+}
+
+.btn:active, input[type="radio"]:active, .btn:hover, input[type="radio"]:hover {
+    outline: none;
+    background-color: var(--secondary-green);
+    border: 2px solid var(--secondary-green);
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+}
+
+.pagination .btn {
+    font-family: RickAndMorty;
+}
+
+.btn.disabled {
+    background-color: var(--primary-green) !important;
+    border: 2px solid var(--primary-green) !important;
+    color: var(--grey) !important;
+}
+
+.nav-link {
+    color: var(--quaternary-green) !important;
+}
+
+.page-link {
+    background-color: var(--tertiary-green) !important;
+    color: var(--white) !important;
+    border: 3px solid var(--quaternary-green) !important;
+    outline: none;
+    font-weight: bold;
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-green) !important;
+    border: 3px solid var(--secondary-green) !important;
+}
+
+.page-link:hover {
+    background-color: var(--quaternary-green) !important;
+}
+
+.nav-link.active {
+    color: var(--tertiary-green) !important;
+    border-bottom: 3px solid var(--quaternary-green) !important;
+    font-weight: bold;
+    border-bottom: 3px solid #0b5ed7;
+}
